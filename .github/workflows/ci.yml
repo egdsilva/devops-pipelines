@@ -23,4 +23,10 @@ jobs:
 
       - name: Executar testes
         run: npm test
+
+      - name: Verificar cobertura de testes
+        run: npm run coverage
+      
+      - name: Rodar lint
+        run: npm run lint
           
